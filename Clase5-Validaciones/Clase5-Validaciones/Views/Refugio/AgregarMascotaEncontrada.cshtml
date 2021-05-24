@@ -53,6 +53,11 @@
         Datos de contacto: <textarea name="DatosDeContacto"></textarea>
         <span asp-validation-for="DatosDeContacto"></span>
     </div>
+
+    <div>
+        Email del contacto: <input type="text" asp-for="mailContacto" value="">
+        <span asp-validation-for="mailContacto"></span>
+    </div>
     <div>
         Fotos: <input type="file" name="Foto1" value="" />
         <input type="file" name="Foto2" value="" />
